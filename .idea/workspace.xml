@@ -40,9 +40,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests in test_gestor_tareas.py.executor": "Run",
     "Python.gestor_tareas.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/marcar__tarea__completada"
+    "git-widget-placeholder": "feature/eliminar__tarea"
   }
 }]]></component>
   <component name="RunManager">
