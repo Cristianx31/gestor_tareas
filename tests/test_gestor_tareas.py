@@ -48,3 +48,21 @@ class TestGestorTareas(unittest.TestCase):
                             self.gestor.agregar_tarea("Tarea 1", "Descripción de la tarea 1")
                             self.gestor.marcar_tarea_como_completada("Tarea 1")
                             self.assertTrue(self.gestor.tareas[0].completada)
+
+        class GestorTareas:
+            # Métodos anteriores
+
+            def eliminar_tarea(self, titulo):
+                for tarea in self.tareas:
+                    if tarea.titulo == titulo:
+                        self.tareas.remove(tarea)
+                        return
+                raise ValueError("Tarea no encontrada")
+
+        class TestGestorTareas(unittest.TestCase):
+            # Métodos anteriores
+
+            def test_eliminar_tarea(self):
+                self.gestor.agregar_tarea("Tarea 1", "Descripción de la tarea 1")
+                self.gestor.eliminar_tarea("Tarea 1")
+                self.assertEqual(len(self.gestor.tareas), 0)
