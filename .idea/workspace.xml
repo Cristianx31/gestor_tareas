@@ -42,7 +42,7 @@
     "Python.gestor_tareas.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop"
+    "git-widget-placeholder": "feature/marcar__tarea__completada"
   }
 }]]></component>
   <component name="RunManager">
